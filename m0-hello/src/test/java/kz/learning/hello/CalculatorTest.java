@@ -8,11 +8,11 @@ public class CalculatorTest {
 
     @Test
     public void addTest() {
-        assertThat(Calculator.add(2, 3)).isEqualTo(5);
+        assertThat(new Calculator().add(2, 3)).isEqualTo(5);
     }
 
     @Test
     public void percentOfTest() {
-        assertThat(Calculator.percentOf(199, 15)).isEqualTo(29);
+        assertThat(new Calculator().percentOf(199, 15)).isEqualTo(29);
     }
 }

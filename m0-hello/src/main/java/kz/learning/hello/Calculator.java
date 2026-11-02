@@ -1,10 +1,10 @@
 package kz.learning.hello;
 
 public class Calculator {
-    public static float add(float a, float b) {
+    public int add(int a, int b) {
         return a + b;
     }
-    public static float percentOf(float a, float b) {
+    public int percentOf(int a, int b) {
         return (a * b) / 100;
     }
 }
