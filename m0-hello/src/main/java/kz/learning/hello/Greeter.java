@@ -1,11 +1,11 @@
 package kz.learning.hello;
 
 public class Greeter {
-    static String greet(String name) {
+    public static String greet(String name) {
         if (name == null || name.isBlank()) {
             return "Привет, мир!";
         } else {
-            return "Привет, " + name + "!";
+            return "Привет, " + name.trim() + "!";
         }
     }
 
