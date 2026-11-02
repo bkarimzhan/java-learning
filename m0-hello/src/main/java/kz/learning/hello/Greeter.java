@@ -4,9 +4,8 @@ public class Greeter {
     public static String greet(String name) {
         if (name == null || name.isBlank()) {
             return "Привет, мир!";
-        } else {
-            return "Привет, " + name.trim() + "!";
         }
+        return "Привет, " + name.trim() + "!";
     }
 
     public static void main(String[] args) {
